@@ -2,6 +2,7 @@
 ## Root Finding Methods
 ### Newton's method
 > Newton's method (also known as the Newton–Raphson method) is a method for finding successively better approximations to the roots (or zeroes) of a real-valued function. The process is repeated as
+
 ![Newton's method](https://wikimedia.org/api/rest_v1/media/math/render/svg/710c11b9ec4568d1cfff49b7c7d41e0a7829a736)
 ### Fixed point method
 > Fixed-point iteration is a method of computing fixed points of iterated functions. More specifically, given a function f defined on the real numbers with real values and given a point x0 in the domain of f, the fixed point iteration is ![fixed point iteration](https://wikimedia.org/api/rest_v1/media/math/render/svg/ba487937fda713369ec948df23c7bda3a89a95aa)
