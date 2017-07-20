@@ -15,4 +15,4 @@
 > 2. The next, "corrector" step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function's value at the same subsequent point.
 ## Trapizoidal method
 > Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area. hat
-![Trapezoidal rule]{https://wikimedia.org/api/rest_v1/media/math/render/svg/9c5878f100043b300c63f335adf82c99c78948f2}
+![Trapezoidal rule](https://wikimedia.org/api/rest_v1/media/math/render/svg/9c5878f100043b300c63f335adf82c99c78948f2)
