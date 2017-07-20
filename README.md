@@ -1,6 +1,7 @@
 # Numerical-analysis
 ## Euler Method
 > Euler method (also called forward Euler method) is a first-order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value. It is the most basic explicit method for numerical integration of ordinary differential equations and is the simplest Runge–Kutta method.
+![Euler Iteration](https://wikimedia.org/api/rest_v1/media/math/render/svg/0df686bb7caa953daf6e0495aa9e1703e1be0ec4)
 ## Hermite Interpolation
 > Hermite Interpolation is a method of interpolating data points as a polynomial function. The generated Hermite interpolating polynomial is closely related to the Newton polynomial, in that both are derived from the calculation of divided differences.
 ## Lagrange Interpolation
@@ -14,5 +15,5 @@
 > 1. The initial, "prediction" step, starts from a function fitted to the function-values and derivative-values at a preceding set of points to extrapolate ("anticipate") this function's value at a subsequent, new point.
 > 2. The next, "corrector" step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function's value at the same subsequent point.
 ## Trapizoidal method
-> Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area. hat
+> Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area.
 ![Trapezoidal rule](https://wikimedia.org/api/rest_v1/media/math/render/svg/9c5878f100043b300c63f335adf82c99c78948f2)
