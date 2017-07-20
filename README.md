@@ -13,7 +13,7 @@
 ### Hermite Interpolation
 > Hermite Interpolation is a method of interpolating data points as a polynomial function. The generated Hermite interpolating polynomial is closely related to the Newton polynomial, in that both are derived from the calculation of divided differences.
 ### Lagrange Interpolation
-> Lagrange polynomials are used for polynomial interpolation. See [Wikipedia]{https://en.wikipedia.org/wiki/Lagrange_polynomial}
+> Lagrange polynomials are used for polynomial interpolation. See [Wikipedia](https://en.wikipedia.org/wiki/Lagrange_polynomial)
 ### Newton's Interpolation
 > Newton's divided differences is an algorithm, historically used for computing tables of logarithms and trigonometric functions. Divided differences is a recursive division process. The method can be used to calculate the coefficients in the interpolation polynomial in the Newton form.
 
