@@ -11,12 +11,12 @@ for i=2:n
 end
 
 
-Prod = zeros(n-1,n); 
+Product = zeros(n-1,n); 
 p = conv(1,[1,-X]); %  poly (x-x(1))
  
 for i = 1:n-1
- Prod(i,(n-(length(p)-1)):n) = (Y(i+1)*p)/factorial(i);
- p = conv(p,[1,-X]); % poly (x-x(1)^i....
+ Product(i,(n-(length(p)-1)):n) = (Y(i+1)*p)/factorial(i);
+ p = conv(p,[1,-X]); % poly (x-x(1))*(x-x(1))*(x-x(1)) ....
 end
  
 P = sum(Prod,1);
