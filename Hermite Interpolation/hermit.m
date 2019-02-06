@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 printf("Hermit's Interpolation method\n");
 X=input("Enter x: ");
 func=[1,0,0];%polynomial function   x^3

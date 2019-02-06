@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 printf("Lagrange's Interpolation method\n");
 n=input("Enter the number of data points:");
 X=input("Enter x");

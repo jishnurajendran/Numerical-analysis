@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 clc; %Clears editor screen and background
 clf; %Clears the plot screen 
 format long; %sets format to long
