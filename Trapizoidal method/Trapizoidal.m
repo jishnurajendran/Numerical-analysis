@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 h=0.002;
 x = 0:h:2;
 y = 2*x.^1;

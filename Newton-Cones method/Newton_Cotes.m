@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 a=input(" Enter the lower limit: ");
 b=input("\n Enter the upper limit: ");
 n=input("\n Enter the no. of intervals: ");

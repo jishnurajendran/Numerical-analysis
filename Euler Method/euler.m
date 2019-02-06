@@ -1,3 +1,4 @@
+% Author: Jishnu Rajendran
 %h=0.02;
 n=input("n");
 %interval [a,b]
