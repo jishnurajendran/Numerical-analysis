@@ -1,4 +1,5 @@
 # Table of Contents
+![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge)![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge)
 
 1.  [Root Finding Methods](#org770afdb)
     1.  [Newton&rsquo;s method](#org013f1b7)
