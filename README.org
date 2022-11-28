@@ -25,7 +25,7 @@ Newton's divided differences is an algorithm, historically used for computing ta
 * Integration methods
 ** Euler Method
 Euler method (also called forward Euler method) is a first-order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value. It is the most basic explicit method for numerical integration of ordinary differential equations and is the simplest Runge–Kutta method.
-$$ y_{n+1} = y_{n} + h f(t_n , y_n) $$
+$$ y_{n+1} = y_{n} + h f(t_{n} , y_{n}) $$
 
 ** Newton–Cotes Method
 Newton–Cotes formulae, also called the Newton–Cotes quadrature rules or simply Newton–Cotes rules, are a group of formulae for numerical integration (also called quadrature) based on evaluating the integrand at equally spaced points. They are named after Isaac Newton and Roger Cotes.
