@@ -1,8 +1,3 @@
-```
-title: Numerical Analysis
-author: Jishnu
-```
-
 # Table of Contents
 
 1.  [Root Finding Methods](#org770afdb)
