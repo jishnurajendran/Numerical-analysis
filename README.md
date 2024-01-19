@@ -1,33 +1,32 @@
-
-# Table of Contents
-
-1.  [Root Finding Methods](#orgefe5c09)
-    1.  [Newton&rsquo;s method](#org7d679d2)
-    2.  [Fixed point method](#orgeb54040)
-    3.  [Secant method](#org82e886b)
-2.  [Interpolation techniques](#orgcd5aecd)
-    1.  [Hermite Interpolation](#org564bc6d)
-    2.  [Lagrange Interpolation](#org2720a8a)
-    3.  [Newton&rsquo;s Interpolation](#orgc7ba82a)
-3.  [Integration methods](#org09c0dc7)
-    1.  [Euler Method](#orgb8d1fca)
-    2.  [Newton–Cotes Method](#org10d601a)
-    3.  [Predictor–Corrector Method](#org555de04)
-    4.  [Trapizoidal method](#orgcf2b400)
-
-![img](c:/Users/rjish/notes-orgmode/.attach/45/5c46bb-952b-4978-b48e-554565046442/_20240120_041518num-ana.png)
-
+![img](https:/raw.githubusercontent.com/jishnurajendran/Numerical-analysis/faa69bdda674b5fa4a9fdde8f65ca65116235d94/num-ana.png)
 
 ![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
+# Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Root Finding Methods](#root-finding-methods)
+  - [Newton’s method](#newtons-method)
+  - [Fixed point method](#fixed-point-method)
+  - [Secant method](#secant-method)
+- [Interpolation techniques](#interpolation-techniques)
+  - [Hermite Interpolation](#hermite-interpolation)
+  - [Lagrange Interpolation](#lagrange-interpolation)
+  - [Newton’s Interpolation](#newtons-interpolation)
+- [Integration methods](#integration-methods)
+  - [Euler Method](#euler-method)
+  - [Newton–Cotes Method](#newtoncotes-method)
+  - [Predictor–Corrector Method](#predictorcorrector-method)
+  - [Trapizoidal method](#trapizoidal-method)
 
 
 
-<a id="orgefe5c09"></a>
+
+<a id="orgb9f3b27"></a>
 
 # Root Finding Methods
 
 
-<a id="org7d679d2"></a>
+<a id="org5aff3b6"></a>
 
 ## [Newton&rsquo;s method](https://en.wikipedia.org/wiki/Newton%27s_method)
 
@@ -35,7 +34,7 @@ Newton&rsquo;s method (also known as the Newton–Raphson method) is a method fo
 $$ x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}} $$
 
 
-<a id="orgeb54040"></a>
+<a id="orgae5aef4"></a>
 
 ## [Fixed point method](https://en.wikipedia.org/wiki/Fixed-point_iteration)
 
@@ -43,7 +42,7 @@ Fixed-point iteration is a method of computing fixed points of iterated function
 $$ x_{n+1}=f(x_{n}),\,n=0,1,2,\dots$$
 
 
-<a id="org82e886b"></a>
+<a id="orgfe96e43"></a>
 
 ## [Secant method](https://en.wikipedia.org/wiki/Secant_method)
 
@@ -51,38 +50,38 @@ Secant method is a root-finding algorithm that uses a succession of roots of sec
 $$ x_{n}=x_{n-1}-f(x_{n-1}){\frac {x_{n-1}-x_{n-2}}{f(x_{n-1})-f(x_{n-2})}}={\frac {x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}}. $$
 
 
-<a id="orgcd5aecd"></a>
+<a id="orgdeb2d2a"></a>
 
 # Interpolation techniques
 
 
-<a id="org564bc6d"></a>
+<a id="orgf4345c9"></a>
 
 ## Hermite Interpolation
 
 Hermite Interpolation is a method of interpolating data points as a polynomial function. The generated Hermite interpolating polynomial is closely related to the Newton polynomial, in that both are derived from the calculation of divided differences.
 
 
-<a id="org2720a8a"></a>
+<a id="orgb214da6"></a>
 
 ## Lagrange Interpolation
 
 Lagrange polynomials are used for polynomial interpolation. See [Wikipedia](https://en.wikipedia.org/wiki/Lagrange_polynomial)
 
 
-<a id="orgc7ba82a"></a>
+<a id="orge9414b5"></a>
 
 ## Newton&rsquo;s Interpolation
 
 Newton&rsquo;s divided differences is an algorithm, historically used for computing tables of logarithms and trigonometric functions. Divided differences is a recursive division process. The method can be used to calculate the coefficients in the interpolation polynomial in the Newton form.
 
 
-<a id="org09c0dc7"></a>
+<a id="org9c17267"></a>
 
 # Integration methods
 
 
-<a id="orgb8d1fca"></a>
+<a id="org7e8581e"></a>
 
 ## Euler Method
 
@@ -90,14 +89,14 @@ Euler method (also called forward Euler method) is a first-order numerical proce
 $$ y_{n+1} = y_{n} + h f(t_{n} , y_{n}) $$
 
 
-<a id="org10d601a"></a>
+<a id="org0d8f9cb"></a>
 
 ## Newton–Cotes Method
 
 Newton–Cotes formulae, also called the Newton–Cotes quadrature rules or simply Newton–Cotes rules, are a group of formulae for numerical integration (also called quadrature) based on evaluating the integrand at equally spaced points. They are named after Isaac Newton and Roger Cotes.
 
 
-<a id="org555de04"></a>
+<a id="org35c5fc3"></a>
 
 ## Predictor–Corrector Method
 
@@ -107,7 +106,7 @@ Predictor–Corrector methods belong to a class of algorithms designed to integr
 2.  The next, *&ldquo;corrector&rdquo;* step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function&rsquo;s value at the same subsequent point.
 
 
-<a id="orgcf2b400"></a>
+<a id="orgb0d837c"></a>
 
 ## Trapizoidal method
 
