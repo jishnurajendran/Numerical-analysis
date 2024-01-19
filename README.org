@@ -1,6 +1,12 @@
 #+TITLE: Numerical-analysis
 #+AUTHOR: Jishnu Rajendran
 
+![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
+
+:PROPERTIES:
+:TOC:      :include all
+:END:
+
 * Root Finding Methods
 ** [[https://en.wikipedia.org/wiki/Newton%27s_method][Newton's method]]
 Newton's method (also known as the Newton–Raphson method) is a method for finding successively better approximations to the roots (or zeroes) of a real-valued function. The process is repeated as $$ x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}} $$
@@ -32,8 +38,8 @@ Newton–Cotes formulae, also called the Newton–Cotes quadrature rules or simp
 
 ** Predictor–Corrector Method
 Predictor–Corrector methods belong to a class of algorithms designed to integrate ordinary differential equations – to find an unknown function that satisfies a given differential equation. All such algorithms proceed in two steps:
-1. The initial, "prediction" step, starts from a function fitted to the function-values and derivative-values at a preceding set of points to extrapolate ("anticipate") this function's value at a subsequent, new point.
-2. The next, "corrector" step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function's value at the same subsequent point.
+1. The initial, /"prediction"/ step, starts from a function fitted to the function-values and derivative-values at a preceding set of points to extrapolate ("anticipate") this function's value at a subsequent, new point.
+2. The next, /"corrector"/ step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function's value at the same subsequent point.
 ** Trapizoidal method
 Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area.
 $$ \int _{a}^{b}f(x)\,dx\approx \sum _{k=1}^{N}{\frac {f(x_{k-1})+f(x_{k})}{2}}\Delta x_{k}$$
