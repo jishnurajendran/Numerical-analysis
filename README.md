@@ -1,4 +1,4 @@
-![img](https:/raw.githubusercontent.com/jishnurajendran/Numerical-analysis/faa69bdda674b5fa4a9fdde8f65ca65116235d94/num-ana.png)
+![img](num-ana.png)
 
 ![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
 # Table of Contents
