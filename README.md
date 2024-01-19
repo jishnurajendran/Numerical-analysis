@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="t0bH_cniRqsSN85ylxqUtxc1MJhB1riT48a9YEZXHlE" />
 ![img](num-ana.png)
 
 ![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
@@ -113,4 +114,3 @@ Predictor–Corrector methods belong to a class of algorithms designed to integr
 Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area.
 $$ \int _{a}^{b}f(x)\,dx\approx \sum _{k=1}^{N}{\frac {f(x_{k-1})+f(x_{k})}{2}}\Delta x_{k}$$
 
-<meta name="google-site-verification" content="t0bH_cniRqsSN85ylxqUtxc1MJhB1riT48a9YEZXHlE" />
