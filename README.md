@@ -17,7 +17,9 @@
 
 ![img](c:/Users/rjish/notes-orgmode/.attach/45/5c46bb-952b-4978-b48e-554565046442/_20240120_041518num-ana.png)
 
-\![GitHub](<https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge>) \![GitHub forks](<https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge>) \![GitHub Repo stars](<https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge>) \![GitHub watchers](<https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge>)
+
+![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
+
 
 
 <a id="orgefe5c09"></a>
