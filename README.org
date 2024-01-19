@@ -4,8 +4,8 @@
 #+TITLE: Numerical-analysis
 #+AUTHOR: Jishnu Rajendran
 
-[[attachment:https://raw.githubusercontent.com/jishnurajendran/Numerical-analysis/faa69bdda674b5fa4a9fdde8f65ca65116235d94/num-ana.png]]
 
+[[attachment:num-ana.png]]
 
 * Root Finding Methods
 ** [[https://en.wikipedia.org/wiki/Newton%27s_method][Newton's method]]
