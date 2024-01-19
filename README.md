@@ -113,3 +113,4 @@ Predictor–Corrector methods belong to a class of algorithms designed to integr
 Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area.
 $$ \int _{a}^{b}f(x)\,dx\approx \sum _{k=1}^{N}{\frac {f(x_{k-1})+f(x_{k})}{2}}\Delta x_{k}$$
 
+<meta name="google-site-verification" content="t0bH_cniRqsSN85ylxqUtxc1MJhB1riT48a9YEZXHlE" />
