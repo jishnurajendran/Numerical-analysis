@@ -4,6 +4,7 @@
 #+TITLE: Numerical-analysis
 #+AUTHOR: Jishnu Rajendran
 
+[[attachment:num-ana.png]]
 
 [[attachment:num-ana.png]]
 
