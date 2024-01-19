@@ -1,12 +1,17 @@
 :PROPERTIES:
 :ID:       455c46bb-952b-4978-b48e-554565046442
 :END:
-#+TITLE: Numerical-analysis
+#+TITLE: Numerical Analysis
 #+AUTHOR: Jishnu Rajendran
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="notebook.css" />
+#+OPTIONS:   toc:nil
+#+OPTIONS:   title:nil
+#+OPTIONS:   html-style:nil
+#+OPTIONS:   html-scripts:nil
+#+OPTIONS:   html-postamble:nil
+#+OPTIONS:   broken-links:mark
 
-[[attachment:num-ana.png]]
-
-[[attachment:num-ana.png]]
+[[file: num-ana.png]]
 
 * Root Finding Methods
 ** [[https://en.wikipedia.org/wiki/Newton%27s_method][Newton's method]]

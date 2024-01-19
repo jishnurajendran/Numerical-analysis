@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-20 Sat 05:24 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Numerical Analysis</title>
+<meta name="author" content="Jishnu Rajendran" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="notebook.css" />
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+
+<div id="org583fd91" class="figure">
+<p><img src=" num-ana.png" alt=" num-ana.png" />
+</p>
+</div>
+<div id="outline-container-org5339598" class="outline-2">
+<h2 id="org5339598"><span class="section-number-2">1.</span> Root Finding Methods</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org0c06e38" class="outline-3">
+<h3 id="org0c06e38"><span class="section-number-3">1.1.</span> <a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton&rsquo;s method</a></h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Newton&rsquo;s method (also known as the Newton–Raphson method) is a method for finding successively better approximations to the roots (or zeroes) of a real-valued function. The process is repeated as 
+\[ x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}} \]
+</p>
+</div>
+</div>
+<div id="outline-container-orge72f9ee" class="outline-3">
+<h3 id="orge72f9ee"><span class="section-number-3">1.2.</span> <a href="https://en.wikipedia.org/wiki/Fixed-point_iteration">Fixed point method</a></h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Fixed-point iteration is a method of computing fixed points of iterated functions. More specifically, given a function f defined on the real numbers with real values and given a point x0 in the domain of f, the fixed point iteration is
+\[ x_{n+1}=f(x_{n}),\,n=0,1,2,\dots\]
+</p>
+</div>
+</div>
+<div id="outline-container-org4ff39c0" class="outline-3">
+<h3 id="org4ff39c0"><span class="section-number-3">1.3.</span> <a href="https://en.wikipedia.org/wiki/Secant_method">Secant method</a></h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Secant method is a root-finding algorithm that uses a succession of roots of secant lines to better approximate a root of a function f. The secant method can be thought of as a finite difference approximation of Newton&rsquo;s method.
+\[ x_{n}=x_{n-1}-f(x_{n-1}){\frac {x_{n-1}-x_{n-2}}{f(x_{n-1})-f(x_{n-2})}}={\frac {x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}}. \]
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgae3377f" class="outline-2">
+<h2 id="orgae3377f"><span class="section-number-2">2.</span> Interpolation techniques</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orga60000b" class="outline-3">
+<h3 id="orga60000b"><span class="section-number-3">2.1.</span> Hermite Interpolation</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Hermite Interpolation is a method of interpolating data points as a polynomial function. The generated Hermite interpolating polynomial is closely related to the Newton polynomial, in that both are derived from the calculation of divided differences.
+</p>
+</div>
+</div>
+<div id="outline-container-org79c41dd" class="outline-3">
+<h3 id="org79c41dd"><span class="section-number-3">2.2.</span> Lagrange Interpolation</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Lagrange polynomials are used for polynomial interpolation. See <a href="https://en.wikipedia.org/wiki/Lagrange_polynomial">Wikipedia</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org5ac3ff2" class="outline-3">
+<h3 id="org5ac3ff2"><span class="section-number-3">2.3.</span> Newton&rsquo;s Interpolation</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Newton&rsquo;s divided differences is an algorithm, historically used for computing tables of logarithms and trigonometric functions. Divided differences is a recursive division process. The method can be used to calculate the coefficients in the interpolation polynomial in the Newton form.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5d17210" class="outline-2">
+<h2 id="org5d17210"><span class="section-number-2">3.</span> Integration methods</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge45db18" class="outline-3">
+<h3 id="orge45db18"><span class="section-number-3">3.1.</span> Euler Method</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Euler method (also called forward Euler method) is a first-order numerical procedure for solving ordinary differential equations (ODEs) with a given initial value. It is the most basic explicit method for numerical integration of ordinary differential equations and is the simplest Runge–Kutta method.
+\[ y_{n+1} = y_{n} + h f(t_{n} , y_{n}) \]
+</p>
+</div>
+</div>
+<div id="outline-container-org6b39d82" class="outline-3">
+<h3 id="org6b39d82"><span class="section-number-3">3.2.</span> Newton–Cotes Method</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Newton–Cotes formulae, also called the Newton–Cotes quadrature rules or simply Newton–Cotes rules, are a group of formulae for numerical integration (also called quadrature) based on evaluating the integrand at equally spaced points. They are named after Isaac Newton and Roger Cotes.
+</p>
+</div>
+</div>
+<div id="outline-container-org288f595" class="outline-3">
+<h3 id="org288f595"><span class="section-number-3">3.3.</span> Predictor–Corrector Method</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Predictor–Corrector methods belong to a class of algorithms designed to integrate ordinary differential equations – to find an unknown function that satisfies a given differential equation. All such algorithms proceed in two steps:
+</p>
+<ol class="org-ol">
+<li>The initial, <i>&ldquo;prediction&rdquo;</i> step, starts from a function fitted to the function-values and derivative-values at a preceding set of points to extrapolate (&ldquo;anticipate&rdquo;) this function&rsquo;s value at a subsequent, new point.</li>
+<li>The next, <i>&ldquo;corrector&rdquo;</i> step refines the initial approximation by using the predicted value of the function and another method to interpolate that unknown function&rsquo;s value at the same subsequent point.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0ebf0ce" class="outline-3">
+<h3 id="org0ebf0ce"><span class="section-number-3">3.4.</span> Trapizoidal method</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Trapezoidal rule is a technique for approximating the definite integral. The trapezoidal rule works by approximating the region under the graph of the function f(x) as a trapezoid and calculating its area.
+\[ \int _{a}^{b}f(x)\,dx\approx \sum _{k=1}^{N}{\frac {f(x_{k-1})+f(x_{k})}{2}}\Delta x_{k}\]
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
