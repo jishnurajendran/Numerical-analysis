@@ -1,15 +1,19 @@
+:PROPERTIES:
+:ID:       455c46bb-952b-4978-b48e-554565046442
+:END:
 #+TITLE: Numerical-analysis
 #+AUTHOR: Jishnu Rajendran
 
+[[attachment:_20240120_041518num-ana.png]]
+
+
 ![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
 
-:PROPERTIES:
-:TOC:      :include all
-:END:
 
 * Root Finding Methods
 ** [[https://en.wikipedia.org/wiki/Newton%27s_method][Newton's method]]
-Newton's method (also known as the Newton–Raphson method) is a method for finding successively better approximations to the roots (or zeroes) of a real-valued function. The process is repeated as $$ x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}} $$
+Newton's method (also known as the Newton–Raphson method) is a method for finding successively better approximations to the roots (or zeroes) of a real-valued function. The process is repeated as 
+$$ x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}} $$
 
 ** [[https://en.wikipedia.org/wiki/Fixed-point_iteration][Fixed point method]]
 Fixed-point iteration is a method of computing fixed points of iterated functions. More specifically, given a function f defined on the real numbers with real values and given a point x0 in the domain of f, the fixed point iteration is
