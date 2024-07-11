@@ -2,7 +2,8 @@
 
 ![img](num-ana.png)
 
-![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/jishnurajendran/Numerical-analysis?style=flat) ![GitHub forks](https://img.shields.io/github/forks/jishnurajendran/Numerical-analysis?style=flat) ![GitHub Repo stars](https://img.shields.io/github/stars/jishnurajendran/Numerical-analysis?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/jishnurajendran/Numerical-analysis?style=flat)
 [![DOI](https://zenodo.org/badge/97871266.svg)](https://zenodo.org/doi/10.5281/zenodo.12716181)
 
 # Table of Contents
